@@ -1,0 +1,73 @@
+
+
+.h1{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .Body {
+     font-family: Calibri, Helvetica, sans-serif;
+     background-color: pink;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    width: 100%;
+    color: orange;
+    padding: 0px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+  }
+  .form {
+    border: 3px solid #f1f1f1;
+  
+  }
+  .input[target=Username]{
+    width: 120px;
+    height: 100px;
+    margin: 2px 0;
+    padding: 12px 4px;
+  position: initial;
+    border: 2px solid green;
+    box-sizing: border-box;
+  }
+  
+  
+  button:hover {
+    opacity: 0.7;
+    resize: unset;
+  
+  }
+  .cancelbtn{
+    width: 100px;
+    padding: 2px 18px;
+    margin: 10px 70px;
+  
+  }
+  body{
+    background-size: cover; /* This property ensures the background image covers the entire viewport */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+  }
+  
+  
+  
+  .container {
+    padding: 25px;
+    display: grid;
+    height: 300px;
+    width: 250px;
+    background-color:navajowhite;
+    white-space: normal;
+    justify-content: center;
+    margin-left:600px;
+    margin-top: 150px;
+
+    aspect-ratio: auto;
+    background-size: auto;
+    grid-template-columns: auto;
+  }
+  
+  
